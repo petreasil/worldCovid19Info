@@ -19,7 +19,7 @@ class AppStore extends Component {
     const { value } = e.target;
     console.log(value);
     this.setState({
-      filter: value
+      filter: value.toLowerCase()
     });
   };
 
